@@ -1,6 +1,6 @@
 # The AI Notebooks
 
-AI research does not happen in a vaccum. It occurs as a result of people responding to, criticising, and being inspired by other's work before and around them. Here I present and implement ideas in AI that we speak of today in the historical order they were published.
+AI research does not happen in a vaccum. It occurs as a result of people responding to, criticising, and being inspired by other's work before and around them. Here I present and where I find it instructive implement ideas in AI that we speak of today in the historical order they were published.
 
 ## 2012: The Era of ImageNet
 
