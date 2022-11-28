@@ -4,9 +4,9 @@
 
  ![SVD simple example](simple.gif)
 
-An image is a matrix. Yes, in reality RGB images are stacked, 3D matrices, but for the sake of interpretation just think of an image as a matrix. This matrix can be represented by $\bm{X}$. We can also perform an SVD on $\bm{X}$ to get $\bm{X} = \bm{U\Sigma V^T}$.
+An image is a matrix. Yes, in reality RGB images are stacked, 3D matrices, but for the sake of interpretation just think of an image as a matrix. This matrix can be represented by $X$. We can also perform an SVD on $\bm{X}$ to get ${X} = {U\Sigma V^T}$.
 
-In `image_compression.py`, you can observe that the reconstructed image (let us call it $\bm{\tilde{X}}$ ) is formed from $k$ columns of these matrices. The compressed image is therefore a rank $k$ approximation of the original image where $\bm{\tilde{X}} = \bm{U_k\Sigma_kV_k^T}$.
+In `image_compression.py`, you can observe that the reconstructed image (let us call it ${\tilde{X}}$ ) is formed from $k$ columns of these matrices. The compressed image is therefore a rank $k$ approximation of the original image where $\bm{\tilde{X}} = {U_k\Sigma_kV_k^T}$.
 
 But why does the approximated image still look good without using all singular values/modes? 
 
